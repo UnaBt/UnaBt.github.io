@@ -1,0 +1,70 @@
+ body {
+  margin: 0;/* Odstrani zunanjem robu */
+  padding: 0; /* Odstrani notranji prostor */
+  box-sizing: border-box;/* Uporabi model poljubnih škatel za vse elemente */
+}
+
+
+
+a:hover {
+  color: violet; /* Ko uporabnik pride z miško na povezavo se povezava pobarva */
+}
+
+/* Slog za navigacijo */
+nav {
+  background-color: #f2f2f2;   /* barva menija je siva */                
+  color: #fff;/* barva črk je črna */
+  padding: 10px;/* Dodaj notranji prostor zgoraj, desno, spodaj in levo */
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;/* Odstrani privzeti slog seznama */
+  text-align: center;/* Poravnava besedila v sredino */
+  font-size: 25px;/* Nastavi velikost pisave na 25 pikslov */
+  font-family: arial;/* Nastavi pisavo na Arial */
+  margin-right:0 %;/* Poravnava besedila na levo */
+}
+
+nav ul li {
+  display: inline-block;/* Elementi so prikazani kot bloki v vrsti */
+  margin: 0 10px;/* Zunanji prostor zgoraj/d spodaj je nastavljen na 0, levi/desni prostor je nastavljen na 10 pikslov */
+  text-align: left;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;/* Odstrani podčrtavanje povezav */
+}
+
+}
+/* Slog za glavno vsebino */
+main {
+  padding: 20px;
+}
+
+img {
+  max-width: 25%;/* Nastavi največjo širino slike na 25% */
+  height: auto;  /* Ohranja razmerje stranic in samodejno prilagodi višino slike */
+}
+
+section {
+  margin-bottom: 20px;  
+  font-size: 30px;
+  font-family: arial;
+}
+
+/* Dodan slog za ozadje */
+body {
+  background-color: #FDD4D3;/* Nastavi roza barvo za ozadje celotne strani */
+  font-family: arial;
+}
+
+
+
+/* Slog za nogo strani */
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  font-family: arial;
